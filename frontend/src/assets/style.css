@@ -1,0 +1,38 @@
+html, body {
+    height: 100%;
+}
+
+.form-check-input:checked {
+    background-color: #198754;
+    border-color: #198754; 
+}
+
+.form-check-input:hover {
+    cursor: pointer;
+}
+
+.calculator {
+    max-width: 350px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.calc-button{
+    width: 72px;
+    height: 72px;
+    font-size: 1.5rem;
+}
+
+.calc-memory-button{
+    width: 56px;
+    height: 36px;
+    font-size: 1.1rem;
+}
+
+#result {
+    height: 60px;
+    font-size: 1.8rem;
+    text-align: right;
+    padding: 10px;
+}
